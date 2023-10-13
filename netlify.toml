@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[context.production]
+  [context.production.environment]
+    NEXT_APP_ENV = "production"
+
+[context.dev]
+  [context.dev.environment]
+    NEXT_APP_ENV = "staging"

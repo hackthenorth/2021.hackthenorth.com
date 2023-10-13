@@ -1,0 +1,282 @@
+import {
+  AjayMalhotraHeadshotImg,
+  AmirValianiHeadshotImg,
+  AndyZhouHeadshotImg,
+  AnthonyZhangHeadshotImg,
+  ArjangParsaHeadshotImg,
+  AyazhanZhakhanHeadshotImg,
+  CarlosTrevinoHeadshotImg,
+  CarolChenHeadshotImg,
+  CorbinMcelhanneyHeadshotImg,
+  DanielleStrachmanHeadshotImg,
+  DeonNicholasHeadshotImg,
+  EvanStitesClaytonHeadshotImg,
+  GautamGuptaHeadshotImg,
+  HarshytGoelHeadshotImg,
+  HenryShiHeadshotImg,
+  JacobWillemsmaHeadshotImg,
+  JakeCooperHeadshotImg,
+  JenDewaltJudgeHeadshotImg,
+  JimmyChanHeadshotImg,
+  JordanJociusHeadshotImg,
+  KaitlynYongHeadshotImg,
+  KartikTalwarHeadshotImg,
+  KartikThakoreHeadshotImg,
+  KateGrandpreyShoresHeadshotImg,
+  KatherineLuHeadshotImg,
+  KevinHofsteeHeadshotImg,
+  KevinLauHeadshotImg,
+  MahyarRaissiHeadshotImg,
+  MatthieuDiMercurioHeadshotImg,
+  MichaelGibsonHeadshotImg,
+  MustafaNabelsiHeadshotImg,
+  NabilFahelHeadshotImg,
+  NimaVaziriHeadshotImg,
+  QasarYounisJudgeHeadshotImg,
+  RohanSampathHeadshotImg,
+  RuchirSwarupHeadshotImg,
+  SeanYoungHeadshotImg,
+  SunilSharmaHeadshotImg,
+  SyamAnupomHeadshotImg,
+  TariqHaddadinHeadshotImg,
+  TimRomanskiHeadshotImg,
+  VictorVucicevichHeadshotImg,
+  VishalMathurHeadshotImg,
+} from "src/assets/img";
+
+import { JudgeInfo } from "./types";
+export const JUDGES_LIST: JudgeInfo[] = [
+  {
+    name: "Qasar Younis",
+    title: "Chief Executive Officer, Applied Intuition",
+    img: QasarYounisJudgeHeadshotImg,
+  },
+  {
+    name: "Jen Dewalt",
+    title: "Founder, Zube",
+    img: JenDewaltJudgeHeadshotImg,
+  },
+  {
+    name: "Deon Nicholas",
+    title: "Founder & CEO, Forethought AI",
+    img: DeonNicholasHeadshotImg,
+  },
+  {
+    name: "Danielle Strachman",
+    title: "Partner, 1517 Fund",
+    img: DanielleStrachmanHeadshotImg,
+  },
+  {
+    name: "Nima Vaziri",
+    title: "Senior Software Engineer, Machine Learning at Farfetch",
+    img: NimaVaziriHeadshotImg,
+  },
+  {
+    name: "Sunil Sharma",
+    title: "Managing Director, Techstars Toronto",
+    img: SunilSharmaHeadshotImg,
+  },
+  {
+    name: "Henry Shi",
+    title: "Co-founder and CTO, SnapCommerce",
+    img: HenryShiHeadshotImg,
+  },
+  {
+    name: "Michael Gibson",
+    title: "Partner, 1517 Fund",
+    img: MichaelGibsonHeadshotImg,
+  },
+  {
+    name: "Rohan Sampath",
+    title: "Co-founder & CEO, Copilot",
+    img: RohanSampathHeadshotImg,
+  },
+  {
+    name: "Jimmy Chan",
+    title: "Co-founder & CEO, Dropbase",
+    img: JimmyChanHeadshotImg,
+  },
+  {
+    name: "Ayazhan Zhakhan",
+    title: "Co-founder & CTO, Dropbase",
+    img: AyazhanZhakhanHeadshotImg,
+  },
+  {
+    name: "Nabil Fahel",
+    title: "Head of Talent Growth, Terminal",
+    img: NabilFahelHeadshotImg,
+  },
+  {
+    name: "Evan Stites-Clayton",
+    title: "CEO, Black Lotus Inc.",
+    img: EvanStitesClaytonHeadshotImg,
+  },
+  {
+    name: "Jake Cooper",
+    title: "Founder, Railway.app",
+    img: JakeCooperHeadshotImg,
+  },
+  {
+    name: "Jordan Jocius",
+    title: "Co-founder, Art Block",
+    img: JordanJociusHeadshotImg,
+  },
+  {
+    name: "Anthony Zhang",
+    title: "CTO, Hypotenuse Labs",
+    img: AnthonyZhangHeadshotImg,
+  },
+  {
+    name: "Tariq Haddadin",
+    title: "Program Director, Techstars Toronto",
+    img: TariqHaddadinHeadshotImg,
+  },
+  {
+    name: "Kevin Hofstee",
+    title: "Director of Product, Nike",
+    img: KevinHofsteeHeadshotImg,
+  },
+
+  {
+    name: "Mahyar Raissi",
+    title: "Co-founder & CEO, OpenPhone",
+    img: MahyarRaissiHeadshotImg,
+  },
+  {
+    name: "Carol Chen",
+    title: "Member of Technical Staff, Cohere",
+    img: CarolChenHeadshotImg,
+  },
+  {
+    name: "Amir Valiani",
+    title: "Engineering Lead, Bicycle Health",
+    img: AmirValianiHeadshotImg,
+  },
+  {
+    name: "Ruchir Swarup",
+    title: "CTO, Addepar",
+    img: RuchirSwarupHeadshotImg,
+  },
+  {
+    name: "Ajay Malhotra",
+    title: "Managing Partner, Canada Startup Company",
+    img: AjayMalhotraHeadshotImg,
+  },
+  {
+    name: "Andy Zhou",
+    title: "Co-founder & CTO, Copilot",
+    img: AndyZhouHeadshotImg,
+  },
+  {
+    name: "Mustafa Nabelsi",
+    title: "Startup Advisor, Communitech",
+    img: MustafaNabelsiHeadshotImg,
+  },
+  {
+    name: "Kartik Thakore",
+    title: "Founder, HOT-G",
+    img: KartikThakoreHeadshotImg,
+  },
+  {
+    name: "Carlos Treviño",
+    title: "Co-founder & CEO, Fractional",
+    img: CarlosTrevinoHeadshotImg,
+  },
+  // {
+  //   name: "Bashir Khan",
+  //   title: "",
+  //   img: LiamHorneHeadshotImg,
+  // },
+  {
+    name: "Arjang Parsa",
+    title: "VP of Products, ApplyBoard",
+    img: ArjangParsaHeadshotImg,
+  },
+  {
+    name: "Matthieu Di Mercurio",
+    title: "Director, Data Science, Dialogue",
+    img: MatthieuDiMercurioHeadshotImg,
+  },
+  {
+    name: "Syam Anupom",
+    title: "Founder & CEO, TimeTackle",
+    img: SyamAnupomHeadshotImg,
+  },
+  {
+    name: "Kate Grandprey-Shores",
+    title: "Player Dynamics Designer, Riot Games",
+    img: KateGrandpreyShoresHeadshotImg,
+  },
+  {
+    name: "Tim Romanski",
+    title: "Software Engineer, AirMatrix",
+    img: TimRomanskiHeadshotImg,
+  },
+  {
+    name: "Harshyt Goel",
+    title: "Founding Engineer, Loom",
+    img: HarshytGoelHeadshotImg,
+  },
+
+  // Alumni
+  {
+    name: "Corbin McElhanney",
+    title: "Software Engineer, QuEra Computing",
+    img: CorbinMcelhanneyHeadshotImg,
+  },
+  {
+    name: "Katherine Lu",
+    title: "Product Manager, Microsoft",
+    img: KatherineLuHeadshotImg,
+  },
+  {
+    name: "Kaitlyn Yong",
+    title: "Product Lead, Credit Karma",
+    img: KaitlynYongHeadshotImg,
+  },
+  {
+    name: "Kartik Talwar",
+    title: "General Partner, A.Capital",
+    img: KartikTalwarHeadshotImg,
+  },
+  {
+    name: "Kevin Lau",
+    title: "Senior Product Manager, Instacart",
+    img: KevinLauHeadshotImg,
+  },
+  {
+    name: "Jacob Willemsma",
+    title: "Founding Engineer, Lunchclub",
+    img: JacobWillemsmaHeadshotImg,
+  },
+  {
+    name: "Nima Vaziri",
+    title: "Researcher, Polychain Capital",
+    img: NimaVaziriHeadshotImg,
+  },
+  {
+    name: "Vishal Mathur",
+    title: "Product Manager, Microsoft",
+    img: VishalMathurHeadshotImg,
+  },
+  {
+    name: "Victor Vucicevich",
+    title: "Product Manager, Taplytics",
+    img: VictorVucicevichHeadshotImg,
+  },
+  {
+    name: "Sean Young",
+    title: "Senior Product Manager, BrainStation",
+    img: SeanYoungHeadshotImg,
+  },
+  {
+    name: "Gautam Gupta",
+    title: "Co-founder, Highbeam",
+    img: GautamGuptaHeadshotImg,
+  },
+  // {
+  //   name: "Liam Horne",
+  //   title: "Co-Founder, L4",
+  //   img: LiamHorneHeadshotImg,
+  // },
+];

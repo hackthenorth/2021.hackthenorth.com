@@ -1,0 +1,31 @@
+@keyframes moveclouds {
+  0% {
+    margin-left: 1000px;
+  }
+  100% {
+    margin-left: -1000px;
+  }
+}
+
+@keyframes boat {
+  0% {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(-3deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes boatmove {
+  0% {
+    margin-left: -0vw;
+  }
+  100% {
+    margin-left: 110vw;
+  }
+}
